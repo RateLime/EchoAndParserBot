@@ -36,7 +36,7 @@ miku.sort()
 lenmiku = len(miku)
 def Bot():
     #ключ телеграм бота
-    bot = telebot.TeleBot('6501487948:AAFCXbJHDzH_EFWzFnc66NX_r-KoWznqRN0')
+    bot = telebot.TeleBot('Token')
     def button0(message):
         markup = types.InlineKeyboardMarkup(row_width=2)
         item1 = types.InlineKeyboardButton('дешевле', callback_data="lowly2")
